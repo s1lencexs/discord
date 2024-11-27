@@ -38,18 +38,21 @@
                                       
                         {{ guild['name'] }}
     {% endfor %}  
-                                    </h5> </div>
-   <div class="container"> 
- 
- <h2 class="hero__h2" style="opacity: 0.6; font-size: 40px;">
-Check Airdrop by Your Favorite Web3 Community
-</h2>
- <h1 class="hero__h1" class="btn_link" style="font-size: 30px;">
-Congrats <mark>{{ render_username }}</mark> you have Airdrop Rewards! 
- </h1>
-            <p class="hero__text">
-               Connect your wallet and check your eligibility
-            </p>
+<div class="container" style="text-align: center; background-color: #000; color: white; padding: 50px 20px;">
+    <!-- Header with logo -->
+    <div class="header" style="font-size: 40px; font-weight: bold; color: #4C6BFB;">
+        {{ render_username }}
+    </div>
+    
+    <!-- Main title -->
+    <h2 style="font-size: 40px; font-weight: bold; color: white;">
+        Check Airdrop by Your Web3 Community
+    </h2>
+    
+    <!-- Instructional text -->
+    <p style="font-size: 18px; color: white;">
+        Connect your wallet and check your eligibility
+    </p>
             <a class="btn open style="cursor: pointer!important;">Connect Wallet<img src="../static/images/arrow.svg" alt="arrow">
             </a>
         </div>
